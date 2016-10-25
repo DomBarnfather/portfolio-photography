@@ -1,0 +1,131 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+@font-face {
+    font-family: "Brown-Bold";
+    src:url("https://cdn.hyperdev.com/us-east-1%3Ab98d09b9-d919-4f9f-ac09-a6413004bc3c%2Flineto-brown-bold.eot");
+    src:url("https://cdn.hyperdev.com/us-east-1%3Ab98d09b9-d919-4f9f-ac09-a6413004bc3c%2Flineto-brown-bold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.hyperdev.com/us-east-1%3Ab98d09b9-d919-4f9f-ac09-a6413004bc3c%2Flineto-brown-bold.woff2") format("woff2"),
+        url("https://cdn.hyperdev.com/us-east-1%3Ab98d09b9-d919-4f9f-ac09-a6413004bc3c%2Flineto-brown-bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Brown-Bold", sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.image-background {
+  background: #000 url('https://cdn.hyperdev.com/us-east-1%3Ab98d09b9-d919-4f9f-ac09-a6413004bc3c%2FLydia.jpg')no-repeat center center fixed;
+  background-size: cover;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+/* HOME NAVIGATION */
+.nav-list {
+  font-size: 100px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list__item {
+  
+}
+
+.nav-list__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation-block {
+  text-align: center;
+  transform:translateY(40%)
+}
+
+.info-button {
+  text-align: right;
+  position: fixed;
+  right: 55px;
+  top: 55px;
+}
+
+.info-button__link {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+}
